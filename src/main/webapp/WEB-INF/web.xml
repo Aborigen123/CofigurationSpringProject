@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<display-name>Archetype Created Web Application</display-name>
+</web-app>
+<!-- міняємо версію проекта но після оновлення буде 2 помилки(3 наслідок від 1) Не може конветуватися до версії 3.0 -->
+<!-- Для того щоб виправити цю помилку переходим до налаштування проекту Bild Path -> Configuration Build path -> Project Facets -> Dunamic Web Modeule забираємо галочку і апдейтимо мавен проект після чого у нас встановлюється версія 3.0-->
+<!--Треба створити папку src/main/java для цього ми  переходим до налаштування проекту Bild Path -> Configuration Build path -> Project Facets -> Dunamic Web Modeule і відкриваємо вкладочку source будуть 3 папки і якщо біля назви папки буде писати(missing) тоді ми видаляємо ці папки і зберігаємо
+ Після чого в цій же папці ми натискаємо на клавішу "Add Foulder" далі в шляшу нажимаємо на main(так щоб не було галочки біля main і далі під низом Create New Folder) і називаємо її java і нічого не змінюючи натискаємо apply and close-->
